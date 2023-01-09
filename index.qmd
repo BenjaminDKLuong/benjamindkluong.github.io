@@ -1,0 +1,61 @@
+---
+title: "Benjamin DK Luong"
+description: "Learning and sharing are the keys for us to move forward"
+listing:
+  - id: data_science
+    contents: data_science/*.ipynb
+    sort: "date desc"
+    type: default
+    fields: [image, date, title, subtitle, categories, author]
+    # categories: true
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+  - id: stock_market
+    contents: stock_market/*.ipynb
+    sort: "date desc"
+    type: default
+    fields: [image, date, title, subtitle, categories, author]
+    # categories: true
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+  - id: reinforcement_learning
+    contents: reinforcement_learning/*.ipynb
+    sort: "date desc"
+    type: default
+    fields: [image, date, title, subtitle, categories, author]
+    # categories: true
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+page-layout: full
+title-block-banner: true
+comments: false
+toc: true
+---
+
+## Data Science
+
+::: {#data_science}
+:::
+
+<a href="../data_science"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<br><br>
+
+## Stock Market
+
+::: {#stock_market}
+:::
+
+<a href="../stock_market"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<br><br>
+
+
+## Reinforcement Learning
+
+::: {#reinforcement_learning}
+:::
+
+<a href="../reinforcement_learning"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<br><br>

@@ -1,0 +1,28 @@
+---
+title: "Benjamin DK Luong"
+image: images/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/benjamin-dk-luong/
+    - icon: github
+      text: Github
+      href: https://github.com/BenjaminDKLuong
+
+---
+
+Benjamin was graduated from University of Missouri with a master degree in Data Science and Analytics in May 2020. He loves to apply Machine Learning, Deep Learning, and Reinforcement Learning in Finance.
+
+## Experience
+
+DTE Energy | Senior Data Scientist | Sept 2022 - present
+
+Spectrum Communications | Data Science Analyst | Mar 2020 - Sept 2022
+
+## Education
+
+University of Missouri, Columbia | Columbia, MO | Master Science in Data Science | May 2020
+
+University of Missouri, Kansas City | Kansas City, MO | B.A in Finance | Dec 2015

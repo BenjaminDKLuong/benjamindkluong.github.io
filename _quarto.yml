@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Benjamin DK Luong"
+  favicon: images/logo.png
+  navbar:
+    right:
+      - href: stock_market
+        text: Stock Market
+      - href: data_science
+        text: Data Science
+      - href: reinforcement_learning
+        text: Reinforcement Learning
+      - href: about.qmd
+        text: About
+      - href: Benjamin_Resume.pdf
+        text: Resume
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamin-dk-luong/
+      - icon: github
+        href: https://github.com/BenjaminDKLuong
+  page-footer: 
+    left: "Copyright 2023, Benjamin DK Luong" 
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamin-dk-luong/
+      - icon: github
+        href: https://github.com/BenjaminDKLuong
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

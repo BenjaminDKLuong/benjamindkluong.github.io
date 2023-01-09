@@ -1,0 +1,15 @@
+---
+title: "Data Science"
+description: " "
+listing:
+  contents: '*.ipynb'
+  sort: "date desc"
+  type: default
+  # fields: [image, date, title, subtitle, categories, author]  
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+comments: false
+---
