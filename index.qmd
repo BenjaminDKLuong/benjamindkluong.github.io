@@ -3,7 +3,7 @@ title: "Benjamin DK Luong"
 description: "Learning and sharing are the keys for us to move forward"
 listing:
   - id: data_science
-    contents: data_science/posts/*
+    contents: data_science/posts/*.ipynb
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, categories, author]
@@ -12,7 +12,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: stock_market
-    contents: stock_market/posts/*
+    contents: stock_market/posts/*.ipynb
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, categories, author]
@@ -21,7 +21,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: reinforcement_learning
-    contents: reinforcement_learning/posts/*
+    contents: reinforcement_learning/posts/*.ipynb
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, categories, author]
