@@ -2,7 +2,7 @@
 title: "Reinforcement Learning"
 description: " "
 listing:
-  contents: '*.ipynb'
+  contents: 'posts/*.ipynb'
   sort: "date desc"
   type: default
   # fields: [image, date, title, subtitle, categories, author]  

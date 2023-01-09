@@ -3,7 +3,7 @@ title: "Benjamin DK Luong"
 description: "Learning and sharing are the keys for us to move forward"
 listing:
   - id: data_science
-    contents: data_science/*.ipynb
+    contents: data_science/posts/*
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, categories, author]
@@ -12,7 +12,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: stock_market
-    contents: stock_market/*.ipynb
+    contents: stock_market/posts/*
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, categories, author]
@@ -21,7 +21,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: reinforcement_learning
-    contents: reinforcement_learning/*.ipynb
+    contents: reinforcement_learning/posts/*
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, categories, author]
@@ -40,7 +40,7 @@ toc: true
 ::: {#data_science}
 :::
 
-<a href="../data_science"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<a href="../data_science/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
 <br><br>
 
 ## Stock Market
@@ -48,7 +48,7 @@ toc: true
 ::: {#stock_market}
 :::
 
-<a href="../stock_market"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<a href="../stock_market/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
 <br><br>
 
 
@@ -57,5 +57,5 @@ toc: true
 ::: {#reinforcement_learning}
 :::
 
-<a href="../reinforcement_learning"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<a href="../reinforcement_learning/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
 <br><br>

@@ -6,11 +6,11 @@ website:
   favicon: images/logo.png
   navbar:
     right:
-      - href: stock_market
+      - href: stock_market/index.html
         text: Stock Market
-      - href: data_science
+      - href: data_science/index.html
         text: Data Science
-      - href: reinforcement_learning
+      - href: reinforcement_learning/index.html
         text: Reinforcement Learning
       - href: about.qmd
         text: About

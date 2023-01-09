@@ -2,7 +2,7 @@
 title: "Data Science"
 description: " "
 listing:
-  contents: '*.ipynb'
+  contents: posts/*
   sort: "date desc"
   type: default
   # fields: [image, date, title, subtitle, categories, author]  
