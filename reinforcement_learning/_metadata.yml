@@ -6,4 +6,7 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
- 
+
+keywords: 'Reinforcement Learning'
+author-meta: 'Benjamin DK Luong'
+description-meta: 'learn and share knowledge related to data science, machine learning, reinforcement learning, and data insights.  Apply data science on stock market to gain insight, create strategies, or optimize strategies.'
