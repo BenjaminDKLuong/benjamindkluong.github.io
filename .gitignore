@@ -1,3 +1,14 @@
 /.quarto/
 /_site/
 /backup/
+/stock_market/posts/data
+/stock_market/posts/utils
+/data_science/posts/data
+/data_science/posts/utils
+/reinforcement_learning/posts/data
+/reinforcement_learning/posts/utils
+
+
+
+
+

@@ -44,11 +44,11 @@ toc: true
   <ul class="cards">
     <li class="cards_item">
       <div class="card">
-        <div class="card_image"><img src="https://picsum.photos/500/300/?image=12"></div>
+        <div class="card_image"><img src="images/longterm.jpg"></div>
         <div class="card_content">
           <h2 class="card_title">Longterm Investment</h2>
           <p class="card_text">Good companies with strong financial statements</p>
-          <a href="../data_science/posts/01_high_bias_high_variance.html" style="text-decoration:none;"> 
+          <a href="../stock_market/posts/01_Longterm_Investment.html" style="text-decoration:none;"> 
             <button class="btn1 card_btn">Read More</button>
           </a>
         </div>
@@ -56,11 +56,11 @@ toc: true
     </li>
     <li class="cards_item">
       <div class="card">
-        <div class="card_image"><img src="https://picsum.photos/500/300/?image=57"></div>
+        <div class="card_image"><img src="images/real_estate.jpg"></div>
         <div class="card_content">
           <h2 class="card_title">Real Estate</h2>
           <p class="card_text"> <br>Good real estate companies with stable profits</p>
-          <a href="../data_science/posts/01_high_bias_high_variance.html" style="text-decoration:none;"> 
+          <a href="../stock_market/posts/02_Real_Estate.html" style="text-decoration:none;"> 
             <button class="btn1 card_btn">Read More</button>
           </a>
         </div>
@@ -68,7 +68,7 @@ toc: true
     </li>
     <li class="cards_item">
       <div class="card">
-        <div class="card_image"><img src="https://picsum.photos/500/300/?image=16"></div>
+        <div class="card_image"><img src="images/buy_now.jpg"></div>
         <div class="card_content">
           <h2 class="card_title">Buy Now Stocks</h2>
           <p class="card_text"><br>Good longterm stocks that are in oversold zone</p>
