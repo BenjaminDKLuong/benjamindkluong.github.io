@@ -6,6 +6,7 @@
   {
     "listing": "/data_science/index.html",
     "items": [
+      "/data_science/posts/03_Plotly_Tutorial.html",
       "/data_science/posts/02_accuracy_score.html",
       "/data_science/posts/01_high_bias_high_variance.html",
       "/data_science/posts/00_how_to_split_a_dataset.html"
@@ -14,6 +15,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/data_science/posts/03_Plotly_Tutorial.html",
       "/data_science/posts/02_accuracy_score.html",
       "/data_science/posts/01_high_bias_high_variance.html",
       "/data_science/posts/00_how_to_split_a_dataset.html",

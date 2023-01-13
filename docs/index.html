@@ -73,7 +73,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
@@ -296,7 +297,44 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="data-science">Data Science</h2>
 <div id="listing-data_science" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Data Science" data-listing-date-sort="1570683600000" data-listing-file-modified-sort="1673403944584" data-listing-reading-time-sort="1.345">
+<div class="quarto-post image-right" data-index="0" data-categories="Data Science,Visualization,Plotly" data-listing-date-sort="1602306000000" data-listing-file-modified-sort="1673627648453" data-listing-reading-time-sort="0.19">
+<div class="thumbnail">
+<p><a href="./data_science/posts/03_Plotly_Tutorial.html"> <img src="./data_science/images/03.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./data_science/posts/03_Plotly_Tutorial.html">
+<h3 class="no-anchor listing-title">
+Plotly Tutorial
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Science'); return false;">
+Data Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Visualization'); return false;">
+Visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Plotly'); return false;">
+Plotly
+</div>
+</div>
+<a href="./data_science/posts/03_Plotly_Tutorial.html"> </a>
+</div>
+<div class="metadata">
+<a href="./data_science/posts/03_Plotly_Tutorial.html">
+<div class="listing-date">
+Oct 10, 2020
+</div>
+<div class="listing-author">
+Benjamin DK Luong
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Data Science" data-listing-date-sort="1570683600000" data-listing-file-modified-sort="1673403944584" data-listing-reading-time-sort="1.345">
 <div class="thumbnail">
 <p><a href="./data_science/posts/02_accuracy_score.html"> <img src="./data_science/images/02.png" class="thumnail-image"> </a></p>
 </div>
@@ -327,7 +365,7 @@ Benjamin DK Luong
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Data Science" data-listing-date-sort="1568523600000" data-listing-file-modified-sort="1673404026711" data-listing-reading-time-sort="1.115">
+<div class="quarto-post image-right" data-index="2" data-categories="Data Science" data-listing-date-sort="1568523600000" data-listing-file-modified-sort="1673404026711" data-listing-reading-time-sort="1.115">
 <div class="thumbnail">
 <p><a href="./data_science/posts/01_high_bias_high_variance.html"> <img src="./data_science/images/01.png" class="thumnail-image"> </a></p>
 </div>
@@ -358,9 +396,9 @@ Benjamin DK Luong
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Data Science" data-listing-date-sort="1566709200000" data-listing-file-modified-sort="1673404043745" data-listing-reading-time-sort="0.395">
+<div class="quarto-post image-right" data-index="3" data-categories="Data Science" data-listing-date-sort="1566709200000" data-listing-file-modified-sort="1673404043745" data-listing-reading-time-sort="0.395">
 <div class="thumbnail">
-<p><a href="./data_science/posts/00_how_to_split_a_dataset.html"> <img src="./data_science/images/00.png" class="thumnail-image"> </a></p>
+<p><a href="./data_science/posts/00_how_to_split_a_dataset.html"> <img data-src="./data_science/images/00.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
 <a href="./data_science/posts/00_how_to_split_a_dataset.html">
@@ -393,6 +431,9 @@ Benjamin DK Luong
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="data_science-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <p><a href="../data_science/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a> <br><br></p>
 </section>
