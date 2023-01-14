@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -193,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
         <div class="card_image"><img src="images/longterm.jpg"></div>
         <div class="card_content">
           <h2 class="card_title anchored">Longterm Investment</h2>
-          <p class="card_text">Good companies with strong financial statements</p>
+          <p class="card_text">Good companies with strong financial statements <br></p>
           <a href="../stock_market/posts/01_Longterm_Investment.html" style="text-decoration:none;"> 
             <button class="btn1 card_btn">Read More</button>
           </a>
@@ -229,140 +229,224 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="all-posts" class="level2">
 <h2 class="anchored" data-anchor-id="all-posts">All posts</h2>
-<div id="listing-all_posts" class="quarto-listing quarto-listing-container-table">
+<div id="listing-all_posts" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Stock Market,Investment" data-listing-date-sort="1673416800000" data-listing-file-modified-sort="1673719228430" data-listing-reading-time-sort="0.295">
+<div class="body">
+<a href="./stock_market/posts/02_Real_Estate.html">
+<h3 class="no-anchor listing-title">
+Real Estate Investment
+</h3>
+<div class="listing-subtitle">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Categories
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Stock Market,Investment" data-listing-date-sort="1673416800000" data-listing-file-modified-sort="1673719228430" data-listing-reading-time-sort="0.295" data-listing-title-sort="Real Estate Investment" data-listing-filename-sort="02_Real_Estate.ipynb">
-<td class="listing-image">
-<img src="./stock_market/images/real_estate.jpg" style="height: 40px;">
-</td>
-<td class="listing-date">
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Stock Market'); return false;">
+Stock Market
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Investment'); return false;">
+Investment
+</div>
+</div>
+<a href="./stock_market/posts/02_Real_Estate.html"> </a>
+</div>
+<div class="metadata">
+<a href="./stock_market/posts/02_Real_Estate.html">
+<div class="listing-date">
 Jan 11, 2023
-</td>
-<td class="listing-title">
-<a href="./stock_market/posts/02_Real_Estate.html" class="title">Real Estate Investment</a>
-</td>
-<td class="listing-categories">
-Stock Market,Investment
-</td>
-</tr>
-<tr data-index="1" data-categories="Stock Market,Investment" data-listing-date-sort="1673330400000" data-listing-file-modified-sort="1673719141796" data-listing-reading-time-sort="0.895" data-listing-title-sort="Longterm Investment" data-listing-filename-sort="01_Longterm_Investment.ipynb">
-<td class="listing-image">
-<img src="./stock_market/images/longterm.jpg" style="height: 40px;">
-</td>
-<td class="listing-date">
-Jan 10, 2023
-</td>
-<td class="listing-title">
-<a href="./stock_market/posts/01_Longterm_Investment.html" class="title">Longterm Investment</a>
-</td>
-<td class="listing-categories">
-Stock Market,Investment
-</td>
-</tr>
-<tr data-index="2" data-categories="Data Science,Visualization,Plotly" data-listing-date-sort="1602306000000" data-listing-file-modified-sort="1673719519017" data-listing-reading-time-sort="0.19" data-listing-title-sort="Plotly Tutorial" data-listing-filename-sort="03_Plotly_Tutorial.ipynb">
-<td class="listing-image">
-<img src="./data_science/images/03.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Oct 10, 2020
-</td>
-<td class="listing-title">
-<a href="./data_science/posts/03_Plotly_Tutorial.html" class="title">Plotly Tutorial</a>
-</td>
-<td class="listing-categories">
-Data Science,Visualization,Plotly
-</td>
-</tr>
-<tr data-index="3" data-categories="Data Science" data-listing-date-sort="1570683600000" data-listing-file-modified-sort="1673719463789" data-listing-reading-time-sort="1.345" data-listing-title-sort="Is Only Accuracy Score Enough?" data-listing-filename-sort="02_accuracy_score.ipynb">
-<td class="listing-image">
-<img src="./data_science/images/02.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Oct 10, 2019
-</td>
-<td class="listing-title">
-<a href="./data_science/posts/02_accuracy_score.html" class="title">Is Only Accuracy Score Enough?</a>
-</td>
-<td class="listing-categories">
-Data Science
-</td>
-</tr>
-<tr data-index="4" data-categories="Data Science" data-listing-date-sort="1568523600000" data-listing-file-modified-sort="1673719483023" data-listing-reading-time-sort="1.115" data-listing-title-sort="Basic recipe for machine learning: High bias? High variance?" data-listing-filename-sort="01_high_bias_high_variance.ipynb">
-<td class="listing-image">
-<img src="./data_science/images/01.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Sep 15, 2019
-</td>
-<td class="listing-title">
-<a href="./data_science/posts/01_high_bias_high_variance.html" class="title">Basic recipe for machine learning: High bias? High variance?</a>
-</td>
-<td class="listing-categories">
-Data Science
-</td>
-</tr>
-<tr data-index="5" data-categories="Stock Market,Download" data-listing-date-sort="1568005200000" data-listing-file-modified-sort="1673240381438" data-listing-reading-time-sort="0.35" data-listing-title-sort="Download stock data" data-listing-filename-sort="00_Download_Stock_Data.ipynb">
-<td class="listing-image">
-<img src="./stock_market/images/00.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Sep 9, 2019
-</td>
-<td class="listing-title">
-<a href="./stock_market/posts/00_Download_Stock_Data.html" class="title">Download stock data</a>
-</td>
-<td class="listing-categories">
-Stock Market,Download
-</td>
-</tr>
-<tr data-index="6" data-categories="Data Science" data-listing-date-sort="1566709200000" data-listing-file-modified-sort="1673719495534" data-listing-reading-time-sort="0.395" data-listing-title-sort="How to split a data set" data-listing-filename-sort="00_how_to_split_a_dataset.ipynb">
-<td class="listing-image">
-<img src="./data_science/images/00.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Aug 25, 2019
-</td>
-<td class="listing-title">
-<a href="./data_science/posts/00_how_to_split_a_dataset.html" class="title">How to split a data set</a>
-</td>
-<td class="listing-categories">
-Data Science
-</td>
-</tr>
-<tr data-index="7" data-categories="Reinforcement" data-listing-date-sort="1565499600000" data-listing-file-modified-sort="1673240503565" data-listing-reading-time-sort="0.005" data-listing-title-sort="Coming soon" data-listing-filename-sort="00_r.ipynb">
-<td class="listing-image">
-<img src="./reinforcement_learning/images/00.png" style="height: 40px;">
-</td>
-<td class="listing-date">
-Aug 11, 2019
-</td>
-<td class="listing-title">
-<a href="./reinforcement_learning/posts/00_r.html" class="title">Coming soon</a>
-</td>
-<td class="listing-categories">
-Reinforcement
-</td>
-</tr>
-</tbody>
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Stock Market,Investment" data-listing-date-sort="1673330400000" data-listing-file-modified-sort="1673719141796" data-listing-reading-time-sort="0.895">
+<div class="body">
+<a href="./stock_market/posts/01_Longterm_Investment.html">
+<h3 class="no-anchor listing-title">
+Longterm Investment
+</h3>
+<div class="listing-subtitle">
 
-</table>
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Stock Market'); return false;">
+Stock Market
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Investment'); return false;">
+Investment
+</div>
+</div>
+<a href="./stock_market/posts/01_Longterm_Investment.html"> </a>
+</div>
+<div class="metadata">
+<a href="./stock_market/posts/01_Longterm_Investment.html">
+<div class="listing-date">
+Jan 10, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Data Science,Visualization,Plotly" data-listing-date-sort="1602306000000" data-listing-file-modified-sort="1673719519017" data-listing-reading-time-sort="0.19">
+<div class="body">
+<a href="./data_science/posts/03_Plotly_Tutorial.html">
+<h3 class="no-anchor listing-title">
+Plotly Tutorial
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Science'); return false;">
+Data Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Visualization'); return false;">
+Visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Plotly'); return false;">
+Plotly
+</div>
+</div>
+<a href="./data_science/posts/03_Plotly_Tutorial.html"> </a>
+</div>
+<div class="metadata">
+<a href="./data_science/posts/03_Plotly_Tutorial.html">
+<div class="listing-date">
+Oct 10, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Data Science" data-listing-date-sort="1570683600000" data-listing-file-modified-sort="1673719463789" data-listing-reading-time-sort="1.345">
+<div class="body">
+<a href="./data_science/posts/02_accuracy_score.html">
+<h3 class="no-anchor listing-title">
+Is Only Accuracy Score Enough?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Science'); return false;">
+Data Science
+</div>
+</div>
+<a href="./data_science/posts/02_accuracy_score.html"> </a>
+</div>
+<div class="metadata">
+<a href="./data_science/posts/02_accuracy_score.html">
+<div class="listing-date">
+Oct 10, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Data Science" data-listing-date-sort="1568523600000" data-listing-file-modified-sort="1673719483023" data-listing-reading-time-sort="1.115">
+<div class="body">
+<a href="./data_science/posts/01_high_bias_high_variance.html">
+<h3 class="no-anchor listing-title">
+Basic recipe for machine learning: High bias? High variance?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Science'); return false;">
+Data Science
+</div>
+</div>
+<a href="./data_science/posts/01_high_bias_high_variance.html"> </a>
+</div>
+<div class="metadata">
+<a href="./data_science/posts/01_high_bias_high_variance.html">
+<div class="listing-date">
+Sep 15, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Stock Market,Download" data-listing-date-sort="1568005200000" data-listing-file-modified-sort="1673240381438" data-listing-reading-time-sort="0.35">
+<div class="body">
+<a href="./stock_market/posts/00_Download_Stock_Data.html">
+<h3 class="no-anchor listing-title">
+Download stock data
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Stock Market'); return false;">
+Stock Market
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Download'); return false;">
+Download
+</div>
+</div>
+<a href="./stock_market/posts/00_Download_Stock_Data.html"> </a>
+</div>
+<div class="metadata">
+<a href="./stock_market/posts/00_Download_Stock_Data.html">
+<div class="listing-date">
+Sep 9, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Data Science" data-listing-date-sort="1566709200000" data-listing-file-modified-sort="1673719495534" data-listing-reading-time-sort="0.395">
+<div class="body">
+<a href="./data_science/posts/00_how_to_split_a_dataset.html">
+<h3 class="no-anchor listing-title">
+How to split a data set
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data Science'); return false;">
+Data Science
+</div>
+</div>
+<a href="./data_science/posts/00_how_to_split_a_dataset.html"> </a>
+</div>
+<div class="metadata">
+<a href="./data_science/posts/00_how_to_split_a_dataset.html">
+<div class="listing-date">
+Aug 25, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Reinforcement" data-listing-date-sort="1565499600000" data-listing-file-modified-sort="1673240503565" data-listing-reading-time-sort="0.005">
+<div class="body">
+<a href="./reinforcement_learning/posts/00_r.html">
+<h3 class="no-anchor listing-title">
+Coming soon
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Reinforcement'); return false;">
+Reinforcement
+</div>
+</div>
+<a href="./reinforcement_learning/posts/00_r.html"> </a>
+</div>
+<div class="metadata">
+<a href="./reinforcement_learning/posts/00_r.html">
+<div class="listing-date">
+Aug 11, 2019
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
