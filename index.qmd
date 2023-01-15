@@ -50,7 +50,7 @@ comments: false
         <div class="card_content">
           <h2 class="card_title">Buy Now Stocks</h2>
           <p class="card_text"><br>Good longterm stocks that are in oversold zone</p>
-          <a href="../data_science/posts/01_high_bias_high_variance.html" style="text-decoration:none;"> 
+          <a href="../stock_market/posts/01_Longterm_Investment.html" style="text-decoration:none;"> 
             <button class="btn1 card_btn">Read More</button>
           </a>
         </div>
