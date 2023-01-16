@@ -10,6 +10,7 @@
   {
     "listing": "/data_science/index.html",
     "items": [
+      "/data_science/posts/04_DMV_Test_Scraper.html",
       "/data_science/posts/03_Plotly_Tutorial.html",
       "/data_science/posts/02_accuracy_score.html",
       "/data_science/posts/01_high_bias_high_variance.html",
@@ -19,6 +20,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/data_science/posts/04_DMV_Test_Scraper.html",
       "/stock_market/posts/02_Real_Estate.html",
       "/stock_market/posts/01_Longterm_Investment.html",
       "/data_science/posts/03_Plotly_Tutorial.html",

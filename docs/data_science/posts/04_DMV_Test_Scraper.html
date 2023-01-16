@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Benjamin DK Luong">
+<meta name="dcterms.date" content="2023-01-15">
+<meta name="keywords" content="Data Science">
+<meta name="description" content="learn and share knowledge related to data science, machine learning, reinforcement learning, and data insights. Apply data science on stock market to gain insight, create strategies, or optimize strategies.">
+
+<title>Benjamin DK Luong - Texas DMV Question Bank</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Benjamin DK Luong</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../stock_market/index.html">
+ <span class="menu-text">Stock Market</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../data_science/index.html">
+ <span class="menu-text">Data Science</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../reinforcement_learning/index.html">
+ <span class="menu-text">Reinforcement Learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Benjamin_Resume.pdf">
+ <span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/benjamin-dk-luong/"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/BenjaminDKLuong"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Texas DMV Question Bank</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Web Scraping</div>
+                <div class="quarto-category">Data Science</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Benjamin DK Luong </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 15, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#test-1" id="toc-test-1" class="nav-link active" data-scroll-target="#test-1">Test 1</a></li>
+  <li><a href="#test-2" id="toc-test-2" class="nav-link" data-scroll-target="#test-2">Test 2</a></li>
+  <li><a href="#test-3" id="toc-test-3" class="nav-link" data-scroll-target="#test-3">Test 3</a></li>
+  <li><a href="#test-4" id="toc-test-4" class="nav-link" data-scroll-target="#test-4">Test 4</a></li>
+  <li><a href="#test-5" id="toc-test-5" class="nav-link" data-scroll-target="#test-5">Test 5</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="test-1" class="level1 page-columns page-full">
+<h1>Test 1</h1>
+<div class="cell" data-execution_count="6">
+<div class="cell-output cell-output-display" data-execution_count="6">
+<h4 class="anchored" data-anchor-id="test-1">1.  When driving at speeds under 30 mph, keep a minimum following distance of:</h4>-One second.<br><b><font color="red"> -Two seconds.</font></b> <br>-Three seconds.<br>-Four seconds.<br><h4 class="anchored">2.  This sign means:</h4><img alt="hawaii-right lane ends" height="300" src="https://www.dmv-written-test.com/images-car/hawaii-right_lane_ends.png" width="300">
+<br>-Narrow bridge ahead.<br><b><font color="red"> -Lane ends or roadway narrows ahead.</font></b> <br>-Industrial area.<br>-Freeway on-ramp ahead.<br><h4 class="anchored">3.  When involved in an accident, you should provide:</h4>-Your insurance and registration information.<br>-Your full name and address.<br>-Reasonable assistance to anyone who has been injured.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">4.  This sign means:</h4><img alt="indiana-slippery when wet(2)" height="300" src="https://www.dmv-written-test.com/images-car/indiana-slippery_when_wet(2).png" width="300">
+<br><b><font color="red"> -Slippery when wet.</font></b> <br>-Tow-away zone.<br>-Steep downgrade.<br>-Roadwork ahead.<br><h4 class="anchored">5.  If your wheels drop off the pavement and onto the shoulder of the road, you should:</h4>-Brake hard and turn sharply back onto the pavement.<br>-Stop your car on the edge of the road.<br><b><font color="red"> -Slow down and very carefully turn back onto the pavement.</font></b> <br>-Maintain your speed and turn sharply back onto the pavement.<br><h4 class="anchored">6.  A stop sign is shaped like a(n):</h4>-Rectangle.<br>-Square.<br>-Circle.<br><b><font color="red"> -Octagon.</font></b> <br><h4 class="anchored">7.  When driving in fog:</h4>-Use your parking lights.<br><b><font color="red"> -Use your low beams.</font></b> <br>-Use your high beams.<br>-It makes no difference which lights you use.<br><h4 class="anchored">8.  If you miss your exit on an interstate expressway:</h4>-Stop and make a U-turn.<br><b><font color="red"> -Get off at the next exit and come back to the exit you missed.</font></b> <br>-Roll down your window and ask the driver next to you for help.<br>-Back up on the highway.<br><h4 class="anchored">9.  Don’t follow other cars too closely because:</h4>-You may not see the road between the cars.<br><b><font color="red"> -You may not have time to stop if the vehicle in front of you slows or stops suddenly.</font></b> <br>-You may not see the vehicle's turn signals.<br>-You may not see the other vehicle’s brake lights.<br><h4 class="anchored">10.  Always signal when:</h4>-Changing lanes.<br>-Pulling into or out of a parking space.<br>-Pulling into traffic from a parking area or alley.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">11.  Defensive drivers should:</h4>-Always keep their eyes moving.<br>-Look for developing trouble spots.<br>-Have plans of action.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">12.  If an officer is directing traffic at a working traffic light, drivers should:</h4>-Follow the directions indicated by the traffic light.<br><b><font color="red"> -Follow the directions given by the officer.</font></b> <br>-Honk at the officer.<br>-Check to see what the cars next to them are doing.<br><h4 class="anchored">13.  This sign means:</h4><img alt="pennsylvania-no right turn" height="300" src="https://www.dmv-written-test.com/images-car/pennsylvania-no_right_turn.png" width="300">
+<br>-No U-turn.<br>-No left turn.<br><b><font color="red"> -No right turn.</font></b> <br>-No turning.<br><h4 class="anchored">14.  If one of your tires blows out as you are driving, you should:</h4>-Brake hard immediately.<br><b><font color="red"> -Try to steer straight while gradually slowing by removing your foot from the gas pedal.</font></b> <br>-Maintain your current speed and steer straight.<br>-Swerve back and forth to alert traffic behind you.<br><h4 class="anchored">15.  When making a right turn, you should not:</h4>-Signal to other drivers.<br><b><font color="red"> -Swing too wide for your lane.</font></b> <br>-Slow down.<br>-Move to the far right lane.<br><h4 class="anchored">16.  Night driving can be more difficult than driving during the day because:</h4>-Cars overheat more quickly at night.<br><b><font color="red"> -Visibility is reduced in the dark.</font></b> <br>-It is more likely to be raining at night.<br>-You are more likely to encounter a motorcycle at night.<br><h4 class="anchored">17.  Shared lanes may be used by:</h4><b><font color="red"> -Bicyclists.</font></b> <br>-Truck drivers.<br>-Motorcyclists.<br>-Passenger vehicle operators.<br><h4 class="anchored">18.  Railroad crossings should always be considered:</h4>-Safe to cross, as it is unlikely that a train will be coming.<br><b><font color="red"> -Dangerous.</font></b> <br>-Safe locations to park a car.<br>-A place where it is required to stop<br><h4 class="anchored">19.  When driving at speeds faster than 30 mph, keep a minimum following distance of:</h4>-One second.<br>-Two seconds.<br>-Three seconds.<br><b><font color="red"> -Four seconds.</font></b> <br><h4 class="anchored">20.  You may avoid the risks of alcohol-related crashes by:</h4>-Deciding before you start drinking that you are not going to drive.<br>-Simply saying, "No thanks, I'm driving," if someone offers you a drink.<br>-Calling a taxi.<br><b><font color="red"> -Doing any of the above.</font></b> <br><h4 class="anchored">21.  At a light rail intersection, always:</h4>-Look both ways before crossing tracks.<br>-Pay attention and obey all traffic signals.<br>-Share the road with pedestrians and bicyclists.<br><b><font color="red"> -All of these.</font></b> <br><h4 class="anchored">22.  Allow a larger space cushion than usual when stopping:</h4><b><font color="red"> -On an incline.</font></b> <br>-At an intersection.<br>-At a stop sign.<br>-At a toll plaza.<br><h4 class="anchored">23.  When driving on an interstate:</h4>-Stop on the shoulder of the road if you are tired.<br>-You should always use cruise control.<br><b><font color="red"> -Signal, check mirrors, and check blind spots before changing lanes.</font></b> <br>-You should change lanes often.<br><h4 class="anchored">24.  This sign means:</h4><img alt="washington-pedestrian crossing" height="300" src="https://www.dmv-written-test.com/images-car/washington-pedestrian_crossing.png" width="300">
+<br>-Pedestrians walking along the road ahead.<br><b><font color="red"> -Pedestrian crossing ahead.</font></b> <br>-Pedestrians must not cross here.<br>-Be alert for construction workers on the road.<br><h4 class="anchored">25.  When getting ready to change lanes, you should:</h4>-Check your side view mirror.<br>-Check your rearview mirror.<br>-Quickly turn your head to check for other vehicles.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">26.  To avoid road rage, it is a good idea to:</h4><b><font color="red"> -Allow extra time for your trip.</font></b> <br>-Begin your trip at the last possible moment.<br>-Avoid planning your trip in advance.<br>-Assume nothing will slow down your travel.<br><h4 class="anchored">27.  It is important to be alert to motorcycles because:</h4><b><font color="red"> -They are more difficult to see than cars.</font></b> <br>-They rarely use their headlights.<br>-Motorcyclists are less skilled drivers than other motorists.<br>-All of the above.<br><h4 class="anchored">28.  When changing lanes, you can check your blind spots by:</h4>-Using the inside rearview mirror.<br>-Using the outside rearview mirror.<br>-Using both inside and outside rearview mirrors.<br><b><font color="red"> -Turning your head and looking over your shoulder.</font></b> <br><h4 class="anchored">29.  You may park directly across the street from the entrance of a fire station:</h4>-If the emergency vehicles have just left the station.<br>-During the night.<br>-In clear weather.<br><b><font color="red"> -Under no circumstances.</font></b> <br><h4 class="anchored">30.  Unless otherwise posted, the speed limit in an alley is:</h4><b><font color="red"> -15 mph.</font></b> <br>-30 mph.<br>-45 mph.<br>-55 mph.<br>
+</div>
+</div>
+<div class="column-page">
+<hr>
+</div>
+</section>
+<section id="test-2" class="level1 page-columns page-full">
+<h1>Test 2</h1>
+<div class="cell" data-execution_count="7">
+<div class="cell-output cell-output-display" data-execution_count="7">
+<h4 class="anchored" data-anchor-id="test-2">1.  When in a travel lane on the roadway:</h4>-You may stop to drop off passengers.<br>-You may stop to look up an address.<br>-You may make a U-turn or back up if you get on the wrong entrance ramp of the freeway.<br><b><font color="red"> -Don’t stop for any reason. Keep moving until you can safely pull off the road.</font></b> <br><h4 class="anchored">2.  You should not park within ____ of an intersection.</h4><b><font color="red"> -20 feet</font></b> <br>-30 feet<br>-35 feet<br>-45 feet<br><h4 class="anchored">3.  This sign means:</h4><img alt="indiana-curve ahead" height="300" src="https://www.dmv-written-test.com/images-car/indiana-curve_ahead.png" width="300">
+<br><b><font color="red"> -Curve ahead.</font></b> <br>-Roadwork ahead.<br>-Merging traffic.<br>-No left turn.<br><h4 class="anchored">4.  This road sign means:</h4><img alt="virginia-y intersection" height="300" src="https://www.dmv-written-test.com/images-car/virginia-y_intersection.png" width="300">
+<br>-Your current roadway ends ahead.<br><b><font color="red"> -You must bear either right or left.</font></b> <br>-A four-way intersection is ahead.<br>-A road joins from the right.<br><h4 class="anchored">5.  This road sign means:</h4><img alt="virginia-reserved parking (1)" height="300" src="https://www.dmv-written-test.com/images-car/virginia-reserved_parking (1).png" width="300">
+<br><b><font color="red"> -Parking spaces are reserved for people with disabled parking permits.</font></b> <br>-A circular intersection is ahead.<br>-Traffic in the lane must turn in the direction of the arrow.<br>-Lanes are reserved for buses and vehicles with a driver and one or more passengers.<br><h4 class="anchored">6.  While driving on a two-lane road without bicycle lanes, you encounter a bicyclist traveling in the same direction. What is the safest way to pass the bicyclist?</h4><b><font color="red"> -Slow down and wait until there is no traffic approaching, then pass the bicyclist while leaving him or her sufficient space.</font></b> <br>-Continue driving straight. It is the bicyclist’s responsibility to get out of your way.<br>-Do not pass the bicyclist until you come to a traffic signal or stop sign.<br>-Honk at the bicyclist to let him or her know you are about to pass.<br><h4 class="anchored">7.  If a crossing guard is directing traffic in a school zone, you must:</h4><b><font color="red"> -Follow the directions given by the crossing guard.</font></b> <br>-Copy what surrounding traffic is doing, despite the crossing guard's instructions.<br>-Assume the guard is not supposed to be directing traffic.<br>-Follow rules that would be in place if no children were present.<br><h4 class="anchored">8.  What should you do if your accelerator sticks while you are driving?</h4>-Reach down and attempt to pull it up.<br>-Shift to park.<br><b><font color="red"> -Shift to neutral and apply steady pressure on the brake.</font></b> <br>-Turn the engine off.<br><h4 class="anchored">9.  When may drivers leave their vehicle unattended with the engine running?</h4>-If they are leaving for just a couple minutes.<br><b><font color="red"> -Never.</font></b> <br>-If they are idling near a railroad crossing.<br>-If they are idling in an unfamiliar area.<br><h4 class="anchored">10.  Drivers should use their low beam headlights:</h4>-When driving in fog, dust, or rain.<br>-When following closely behind another vehicle at night.<br>-Within 500 feet of an approaching vehicle when driving at night.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">11.  At night, it is hardest to see:</h4>-Road signs.<br><b><font color="red"> -Pedestrians.</font></b> <br>-Other motorists.<br>-Street lights.<br><h4 class="anchored">12.  Before switching on the ignition, you should:</h4>-Be sure only backseat passengers have buckled their seat belts.<br>-Be sure only adult passengers have buckled their seat belts.<br>-Be sure only child passengers have buckled their seat belts.<br><b><font color="red"> -Be sure all of the vehicle's occupants have buckled their seat belts.</font></b> <br><h4 class="anchored">13.  Which of the following statements about railroad crossings is true?</h4>-It is against the law to go around lowered gates at a crossing.<br>-You must stop at a railroad crossing when directed to do so by a flagger.<br>-Not all railroad crossings are equipped with flashing red signals and gates.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">14.  A bicyclist who doesn’t obey traffic laws:</h4>-Is in the right because bicyclists don’t have to obey traffic laws.<br><b><font color="red"> -Can be ticketed.</font></b> <br>-Will always receive a warning from law enforcement.<br>-Will have their bicycle impounded.<br><h4 class="anchored">15.  You must not drive your vehicle at a speed greater than:</h4>-The maximum speed limit.<br>-A speed that is faster than is reasonable and prudent.<br>-A speed that is safe for existing conditions.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">16.  This sign means:</h4><img alt="indiana-side road" height="300" src="https://www.dmv-written-test.com/images-car/indiana-side_road.png" width="300">
+<br><b><font color="red"> -Side road.</font></b> <br>-Low clearance.<br>-Merging traffic.<br>-Prepare to stop.<br><h4 class="anchored">17.  How often are motor vehicles required to be inspected?</h4>-Once every four years<br>-Once every three years<br>-Once every two years<br><b><font color="red"> -Once every year</font></b> <br><h4 class="anchored">18.  A person who drives much slower than the speed limit:</h4>-Is a very safe driver.<br>-Always has the right-of-way.<br>-Should not let following cars pass.<br><b><font color="red"> -May create a dangerous driving environment.</font></b> <br><h4 class="anchored">19.  This road sign means:</h4><img alt="virginia-speed limit 55" height="300" src="https://www.dmv-written-test.com/images-car/virginia-speed_limit_55.png" width="300">
+<br>-You must travel at the speed indicated.<br><b><font color="red"> -The maximum legal speed on the roadway is 55 mph.</font></b> <br>-You must travel through the intersection at the posted speed.<br>-None of the above.<br><h4 class="anchored">20.  Drinking alcohol and driving is:</h4>-A minor traffic safety problem.<br><b><font color="red"> -A serious traffic safety problem.</font></b> <br>-Safe if you have only had a few drinks.<br>-Only dangerous to the driver who drinks.<br><h4 class="anchored">21.  When driving near heavy trucks, other drivers and highway users must make allowances for:</h4><b><font color="red"> -The increased stopping distance required by large vehicles.</font></b> <br>-The decreased stopping distance required by large vehicles.<br>-The decreased noise of larger vehicles.<br>-The increased speed of larger vehicles.<br><h4 class="anchored">22.  Operating a motor vehicle is:</h4><b><font color="red"> -A privilege.</font></b> <br>-A right.<br>-A requirement.<br>-Simple.<br><h4 class="anchored">23.  The most common color of warning signs is:</h4>-Red.<br><b><font color="red"> -Yellow.</font></b> <br>-Green.<br>-Blue.<br><h4 class="anchored">24.  What helps a person sober up after consuming alcohol?</h4><b><font color="red"> -Only time</font></b> <br>-A cold shower<br>-Eating food<br>-Drinking coffee<br><h4 class="anchored">25.  This sign means that:</h4><img alt="pennsylvania-workers ahead" height="300" src="https://www.dmv-written-test.com/images-car/pennsylvania-workers_ahead.png" width="300">
+<br>-A community service group is picking up trash along the highway ahead.<br><b><font color="red"> -Workers are on or very close to the road in the work zone ahead.</font></b> <br>-Children are at play ahead.<br>-There is a pedestrian crosswalk ahead.<br><h4 class="anchored">26.  An arrow painted on the pavement means:</h4>-Drivers in the proper lane may make the movement indicated by the arrow, if they choose to do so.<br>-Drivers in the proper lane must make the movement indicated by the arrow, but only if traffic lights are not working.<br>-Drivers in the proper lane must always come to a complete stop before making the movement indicated by the arrow.<br><b><font color="red"> -Drivers in the proper lane must make the movement indicated by the arrow while following directions indicated by traffic signals.</font></b> <br><h4 class="anchored">27.  This sign means:</h4><img alt="indiana-steep downgrade" height="300" src="https://www.dmv-written-test.com/images-car/indiana-steep_downgrade.png" width="300">
+<br><b><font color="red"> -Steep downgrade.</font></b> <br>-Crossroad ahead.<br>-No right turn.<br>-Narrow bridge.<br><h4 class="anchored">28.  If you have the right-of-way at an intersection, you should:</h4>-Assume other drivers will follow right-of-way laws.<br><b><font color="red"> -Check for traffic, pedestrians, and bicyclists before moving forward.</font></b> <br>-Wave other drivers forward before proceeding.<br>-Immediately move through the intersection.<br><h4 class="anchored">29.  A pedestrian starts to cross in front of your vehicle. You should:</h4>-Flash your lights.<br>-Slow down.<br>-Speed up and pass in front of the pedestrian.<br><b><font color="red"> -Stop and let the pedestrian cross.</font></b> <br><h4 class="anchored">30.  At dusk or on overcast days, you should:</h4>-Drive using your four-way flashers.<br>-Drive using your parking lights.<br>-Not turn on any vehicle lights.<br><b><font color="red"> -Turn on your headlights.</font></b> <br>
+</div>
+</div>
+<div class="column-page">
+<hr>
+</div>
+</section>
+<section id="test-3" class="level1 page-columns page-full">
+<h1>Test 3</h1>
+<div class="cell" data-execution_count="8">
+<div class="cell-output cell-output-display" data-execution_count="8">
+<h4 class="anchored" data-anchor-id="test-3">1.  Which of the following does not happen after drinking?</h4>-Your reflexes and reaction time slow down.<br>-Your judgement of speed and distance is distorted.<br>-You are less alert.<br><b><font color="red"> -You calm down and can concentrate better.</font></b> <br><h4 class="anchored">2.  Which of the following commonly causes traffic accidents?</h4>-Inattentive driving<br>-Excessive speed under the driving conditions<br>-Following other vehicles too closely<br><b><font color="red"> -All of the above</font></b> <br><h4 class="anchored">3.  Drivers may not park within ____ of a railroad crossing.</h4><b><font color="red"> -50 feet</font></b> <br>-65 feet<br>-100 feet<br>-80 feet<br><h4 class="anchored">4.  When driving in a construction zone, you should be prepared:</h4>-To stop.<br>-To change lanes.<br>-For unexpected movement from workers or equipment.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">5.  This sign is a warning that you are approaching:</h4><img alt="new-york-railroad crossing" height="300" src="https://www.dmv-written-test.com/images-car/new-york-railroad_crossing.png" width="300">
+<br>-An intersection.<br>-A crosswalk.<br><b><font color="red"> -A railroad crossing.</font></b> <br>-A blasting zone.<br><h4 class="anchored">6.  When a traffic signal light turns green, you should:</h4><b><font color="red"> -Yield the right-of-way to pedestrians.</font></b> <br>-Accelerate as quickly as possible.<br>-Back up slowly.<br>-Not move until another driver waves you on.<br><h4 class="anchored">7.  It is illegal to follow within ____ of a fire truck that is sounding its siren.</h4>-One mile<br>-1,000 feet<br>-750 feet<br><b><font color="red"> -500 feet</font></b> <br><h4 class="anchored">8.  You are driving on a busy street and your vehicle’s accelerator sticks open. You should:</h4>-Blow your horn.<br>-Slam on your brakes.<br>-Turn on your four-way flashers.<br><b><font color="red"> -Turn off your ignition, taking care not to engage the steering wheel locking mechanism.</font></b> <br><h4 class="anchored">9.  Driving while being distracted by any activity:</h4>-Is never dangerous.<br><b><font color="red"> -Usually causes the driver to react more slowly to hazards.</font></b> <br>-Usually causes the driver to drive faster.<br>-Is only dangerous for young drivers.<br><h4 class="anchored">10.  You must stop at an intersection when you see a:</h4><b><font color="red"> -Flashing red light.</font></b> <br>-Steady yellow light.<br>-Yellow arrow.<br>-Flashing yellow light.<br><h4 class="anchored">11.  A “No stopping” sign means that, unless directed to do so by a police officer, you may stop only:</h4>-Long enough to unload packages.<br><b><font color="red"> -To avoid conflict with other traffic.</font></b> <br>-To discharge passengers.<br>-For less than five minutes.<br><h4 class="anchored">12.  Which of the following statements is true?</h4>-Signal at least 100 feet before changing lanes to pass and ensure there is no oncoming traffic.<br>-Use your mirrors and look over your left shoulder to check your blind spot when passing to the left.<br>-When passing, wait until you can see both headlights of the passed car in your rearview mirror before returning to your original lane.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">13.  An octagonal sign is always a:</h4>-Speed limit sign.<br><b><font color="red"> -Stop sign.</font></b> <br>-Hospital sign.<br>-Railroad warning sign.<br><h4 class="anchored">14.  You cannot pass safely on a two-way, two-lane street unless:</h4>-You are able to clearly see the road ahead.<br>-You can return to your lane before meeting oncoming traffic.<br>-Your vehicle is capable of the speed necessary to pass.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">15.  When approaching a T intersection, drivers:</h4><b><font color="red"> -Should yield the right-of-way to cross traffic.</font></b> <br>-Have the right-of-way.<br>-Should force their way into traffic.<br>-Should back up and turn around.<br><h4 class="anchored">16.  Fines for moving traffic violations in construction and maintenance zones are:</h4>-Lessened.<br><b><font color="red"> -Doubled.</font></b> <br>-Non-existent.<br>-Unchanged.<br><h4 class="anchored">17.  When you hear the siren or see the flashing lights of an approaching emergency vehicle, you must:</h4>-Slow down until it passes you.<br><b><font color="red"> -Drive to the right side of the road and stop.</font></b> <br>-Motion for the emergency vehicle to pass you.<br>-Merge into the right lane and continue driving.<br><h4 class="anchored">18.  You are involved in an accident. You should:</h4>-Stop immediately.<br>-Help the injured.<br>-Call the police.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">19.  This road sign means:</h4><img alt="Idaho-traffic signal ahead" height="300" src="https://www.dmv-written-test.com/images-car/Idaho-traffic_signal_ahead.png" width="300">
+<br>-Roundabout ahead.<br>-No passing zone.<br>-Left turn yield on green.<br><b><font color="red"> -Traffic signal ahead.</font></b> <br><h4 class="anchored">20.  Which offense will cause a license to be automatically suspended?</h4>-Racing while on a public roadway<br>-Graffiti<br>-Lending a license to another individual<br><b><font color="red"> -All of the above</font></b> <br><h4 class="anchored">21.  You are involved in an accident and another person is injured. You should:</h4>-Moved the injured away from the scene immediately.<br>-Always leave the injured where they are.<br><b><font color="red"> -Not move the injured unnecessarily. Keep the injured warm and administer first aid.</font></b> <br>-Stay away from the injured.<br><h4 class="anchored">22.  You are driving when it starts to sleet or snow. You should:</h4>-Keep your windshield and mirrors clear.<br>-Allow additional distance between your vehicle and the vehicles that you are following.<br>-Approach all vehicles with caution.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">23.  Regulatory signs are usually ____ and should always be obeyed.</h4><b><font color="red"> -White</font></b> <br>-Blue<br>-Green<br>-Orange<br><h4 class="anchored">24.  Emergency vehicles:</h4>-Have the right-of-way when using sirens, horns, and/or flashing lights.<br>-May use a loudspeaker to give instructions.<br>-May follow each other.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">25.  When approaching a flashing yellow light, drivers should:</h4>-Increase their speed.<br>-Come to a complete stop.<br>-Turn on their headlights.<br><b><font color="red"> -Slow down and proceed with caution.</font></b> <br><h4 class="anchored">26.  This sign means:</h4><img alt="pennsylvania-flagger ahead" height="300" src="https://www.dmv-written-test.com/images-car/pennsylvania-flagger_ahead.png" width="300">
+<br>-Pedestrians ahead.<br>-End of construction zone.<br>-School crossing ahead.<br><b><font color="red"> -Flagger ahead.</font></b> <br><h4 class="anchored">27.  Refusing to take an alcohol level test when under suspicion of Driving While Intoxicated or Driving Under the Influence:</h4>-Is your right and will have no negative consequences.<br>-Is recommended.<br><b><font color="red"> -Will result in license suspension.</font></b> <br>-Will just result in a fine.<br><h4 class="anchored">28.  If a pedestrian hybrid beacon signal light is flashing red, it means:</h4>-Drivers may proceed with caution.<br>-Drivers should slow down and prepare to stop.<br><b><font color="red"> -Drivers should come to a complete stop and proceed if the crosswalk is clear.</font></b> <br>-There are no pedestrians nearby.<br><h4 class="anchored">29.  If you are stopped by a police officer, you should:</h4>-Unbuckle your seat belt and lower your window.<br>-Get your paperwork ready before the officer reaches your car.<br><b><font color="red"> -Stay in your vehicle with your hands on the steering wheel and wait for the officer to approach you.</font></b> <br>-Get out of your car and walk toward the patrol car.<br><h4 class="anchored">30.  If another car is in danger of hitting you, you should:</h4><b><font color="red"> -Sound your horn.</font></b> <br>-Wave your arms.<br>-Use your emergency lights.<br>-Flash your headlights.<br>
+</div>
+</div>
+<div class="column-page">
+<hr>
+</div>
+</section>
+<section id="test-4" class="level1 page-columns page-full">
+<h1>Test 4</h1>
+<div class="cell" data-execution_count="9">
+<div class="cell-output cell-output-display" data-execution_count="9">
+<h4 class="anchored" data-anchor-id="test-4">1.  When passing other vehicles:</h4><b><font color="red"> -Check your mirrors and blind spots.</font></b> <br>-Honk your horn at least three times.<br>-Re-enter your lane within 10 feet of the passed vehicle.<br>-There is no need to signal.<br><h4 class="anchored">2.  Roads become very slippery:</h4>-When it has been raining for an hour or more.<br>-The day after it rains.<br><b><font color="red"> -For the first 10 to 15 minutes of a rainstorm.</font></b> <br>-Right after the rain has stopped.<br><h4 class="anchored">3.  Unless otherwise posted, the speed limit in an urban district is:</h4>-15 mph.<br><b><font color="red"> -30 mph.</font></b> <br>-45 mph.<br>-55 mph.<br><h4 class="anchored">4.  The effect that lack of sleep has on your safe driving ability is the same as:</h4><b><font color="red"> -The effect that alcohol has.</font></b> <br>-The effect that amphetamines have.<br>-The effect that anger has.<br>-The effect that driving with teenagers has.<br><h4 class="anchored">5.  What is the first thing you should adjust, if needed, when you get into a car to drive?</h4>-Your seat belt<br>-The steering wheel<br>-Your rearview mirror<br><b><font color="red"> -Your seat</font></b> <br><h4 class="anchored">6.  A seat belt should be adjusted so that it:</h4>-Is loose.<br><b><font color="red"> -Is buckled snugly across your hip bones and lower abdomen.</font></b> <br>-Is hidden beneath the seat.<br>-Keeps the seat belt buzzer or light from operating.<br><h4 class="anchored">7.  This sign means:</h4><img alt="montana-narrow bridge 2" height="300" src="https://www.dmv-written-test.com/images-car/montana-narrow_bridge_2.png" width="300">
+<br>-Trucks are permitted on an upcoming narrow bridge.<br>-The bridge ahead is open to one-way traffic only.<br>-The bridge ahead is wide enough for only one car at a time.<br><b><font color="red"> -The bridge ahead may be too narrow to meet or pass a truck.</font></b> <br><h4 class="anchored">8.  When leaving a parking space, drivers should:</h4>-Look around the vehicle for children and obstructing objects.<br>-Signal to other drivers.<br>-Check their mirrors.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">9.  When turning onto a one-way street, drivers should:</h4>-Always turn into the right lane.<br>-Always turn into the left lane.<br>-Turn into the lane that will interfere the most with traffic.<br><b><font color="red"> -Turn into the lane that will interfere the least with traffic.</font></b> <br><h4 class="anchored">10.  When preparing to turn left, drivers should:</h4>-Slow down gradually while checking their rearview mirror.<br>-Move into the left lane.<br>-Watch for oncoming vehicles and pedestrians.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">11.  Which of the following best ensures your safety and the safety of those around you when you are backing your vehicle?</h4>-Honk your horn right before shifting into reverse.<br><b><font color="red"> -Check behind the vehicle before you get into the driver's seat.</font></b> <br>-Check your rearview mirrors to see what is behind you.<br>-Turn up the car radio before backing up to get the attention of anyone who may be around you.<br><h4 class="anchored">12.  This sign means:</h4><img alt="new-york-no u turn" height="300" src="https://www.dmv-written-test.com/images-car/new-york-no_u_turn.png" width="300">
+<br>-No left turn.<br>-No stopping.<br><b><font color="red"> -No U-turn.</font></b> <br>-Detour ahead.<br><h4 class="anchored">13.  What does a lane control signal with a green arrow above a reversible lane indicate?</h4>-The signal is about to change to a red X.<br>-Drivers should not drive in this lane.<br>-Drivers may use this lane only to make a left turn.<br><b><font color="red"> -Drivers may drive normally in this lane.</font></b> <br><h4 class="anchored">14.  You are approaching an intersection when the traffic light changes from green to solid yellow. You should:</h4>-Consider it the same as a caution sign and continue through the intersection.<br>-Stop immediately.<br><b><font color="red"> -Stop before entering the intersection, unless you are too close to stop safely.</font></b> <br>-Speed up to get through the intersection before the red light appears.<br><h4 class="anchored">15.  As a pedestrian, you should:</h4>-Always insist on the right-of-way over a vehicle when using a crosswalk.<br><b><font color="red"> -Never enter a street or crosswalk when vehicles are approaching.</font></b> <br>-Enter a crosswalk at any time because it is the vehicle driver’s responsibility to stop.<br>-Use crosswalks only if they are convenient.<br><h4 class="anchored">16.  If your car starts to skid, turn your steering wheel:</h4>-To keep the front wheels straight.<br><b><font color="red"> -In the direction you want the vehicle to go.</font></b> <br>-In the opposite direction of the skid.<br>-In any direction. It doesn't matter.<br><h4 class="anchored">17.  You may honk your horn when you:</h4>-Have to stop quickly.<br>-Are passing another car.<br><b><font color="red"> -Have lost control of your car.</font></b> <br>-Are passing a bicyclist.<br><h4 class="anchored">18.  A driver entering public traffic from a driveway or private road:</h4>-Has the right-of-way.<br><b><font color="red"> -Should yield to drivers already on the public road.</font></b> <br>-May force their way into traffic.<br>-Can assume that other drivers will change lanes to make room.<br><h4 class="anchored">19.  When faced with an oncoming car to the left and a bicyclist to the right, you should:</h4>-Pull onto the shoulder.<br>-Split the difference.<br><b><font color="red"> -Let the car pass and then pass the bike.</font></b> <br>-Pass the bike quickly.<br><h4 class="anchored">20.  If pedestrian hybrid beacon signal lights are black, it means:</h4><b><font color="red"> -Drivers may proceed with caution.</font></b> <br>-Drivers should slow down and prepare to stop.<br>-Drivers should come to a complete stop.<br>-There are no pedestrians nearby.<br><h4 class="anchored">21.  You are entering a crowded freeway. What should you do to merge into traffic?</h4>-Use your side and rearview mirrors and check your blind spots.<br>-Use the acceleration lane to adjust your speed to&nbsp;match the speed of freeway traffic.<br>-Yield to traffic already on the freeway.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">22.  Always signal when:</h4>-Changing lanes.<br>-Pulling into or out of a parking space.<br>-Pulling into traffic from an alley or parking area.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">23.  This sign means:</h4><img alt="indiana-keep right" height="300" src="https://www.dmv-written-test.com/images-car/indiana-keep_right.png" width="300">
+<br><b><font color="red"> -Keep right.</font></b> <br>-Low shoulder.<br>-No parking at any time.<br>-Lane ends.<br><h4 class="anchored">24.  The risk of hydroplaning can can be reduced by driving:</h4>-Through shallow water.<br>-More quickly.<br><b><font color="red"> -More slowly.</font></b> <br>-Through deep water.<br><h4 class="anchored">25.  When driving in fog, you should use your:</h4><b><font color="red"> -Low beam headlights.</font></b> <br>-High beam headlights.<br>-Parking lights.<br>-Hazard flashers.<br><h4 class="anchored">26.  When driving in traffic, it is safest to:</h4>-Fluctuate your speed to keep alert.<br>-Drive faster than the flow of traffic.<br>-Drive slower than the flow of traffic.<br><b><font color="red"> -Drive with the flow of traffic.</font></b> <br><h4 class="anchored">27.  You should not park within ____ of a traffic control signal.</h4>-50 feet<br><b><font color="red"> -30 feet</font></b> <br>-35 feet<br>-45 feet<br><h4 class="anchored">28.  In Texas, drivers must use their headlights:</h4>-When they are tired.<br>-When their vehicle has a mechanical problem.<br><b><font color="red"> -30 minutes after sunset until 30 minutes before sunrise.</font></b> <br>-During the day in clear weather.<br><h4 class="anchored">29.  Where may drivers deposit their litter while on the roadways?</h4><b><font color="red"> -In designated litter barrels</font></b> <br>-In the median<br>-In ditches<br>-Anywhere<br><h4 class="anchored">30.  What do large flashing arrow panels indicate?</h4><b><font color="red"> -Drivers should merge into the lane indicated by the arrow.</font></b> <br>-There is something to look at in the direction of the arrow.<br>-Drivers may stay in their current lane.<br>-Drivers should come to a complete stop.<br>
+</div>
+</div>
+<div class="column-page">
+<hr>
+</div>
+</section>
+<section id="test-5" class="level1">
+<h1>Test 5</h1>
+<div class="cell" data-execution_count="10">
+<div class="cell-output cell-output-display" data-execution_count="10">
+
+<h4 class="anchored" data-anchor-id="test-5">1.  How may drivers fight oncoming "Highway hypnosis?"</h4>-Scanning the road, not staring.<br>-Stopping every 100 miles.<br>-Only driving a maximum of eight hours a day.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">2.  This sign means:</h4><img alt="washington-no turn to the right" height="300" src="https://www.dmv-written-test.com/images-car/washington-no_turn_to_the_right.png" width="300">
+<br><b><font color="red"> -No right turn.</font></b> <br>-You must turn right.<br>-Watch for traffic on your right.<br>-Don’t park on the right side of the street.<br><h4 class="anchored">3.  While backing, you should:</h4>-Rely only on your mirrors.<br>-Flash your lights.<br>-Open your door to see if it is safe to proceed.<br><b><font color="red"> -Turn your head and look through the rear window.</font></b> <br><h4 class="anchored">4.  The most effective thing you can do to reduce your risk of being injured or killed in a traffic crash is to:</h4><b><font color="red"> -Wear your seat belt.</font></b> <br>-Limit your driving to weekdays.<br>-Stay in the right lane on multilane highways.<br>-Limit your driving to hours between 3:00 p.m. and 6:00 p.m.<br><h4 class="anchored">5.  When approaching a railroad crossing, you should:</h4>-Slow down.<br>-Look for a train.<br>-Be ready to stop.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">6.  When should you return to your previous lane while completing a pass?</h4>-When you sense that you are far enough ahead of the passed vehicle.<br>-When the other driver signals for you to return to the lane.<br>-When you are directly next to the passed vehicle.<br><b><font color="red"> -When you can see the passed vehicle in your rearview mirror.</font></b> <br><h4 class="anchored">7.  A regulatory sign containing a red circle with a slash through the middle indicates:</h4>-That drivers should come to a complete stop.<br><b><font color="red"> -That an action is forbidden.</font></b> <br>-That some drivers should yield to other drivers.<br>-That drivers should drive under the speed limit.<br><h4 class="anchored">8.  A flashing red traffic signal at an intersection has the same requirements as:</h4>-A slow sign.<br>-A yield sign.<br><b><font color="red"> -A stop sign.</font></b> <br>-An intersection sign.<br><h4 class="anchored">9.  You are coming to a railroad crossing where the crossing signals are flashing. You should:</h4><b><font color="red"> -Stop and look for a train.</font></b> <br>-Slow down and look for a train.<br>-Look for a train, then speed up.<br>-Do what the vehicle ahead of you does.<br><h4 class="anchored">10.  When entering a highway from an entrance ramp, you should generally:</h4>-Enter above the speed of traffic to get ahead.<br>-Enter slowly to avoid other vehicles.<br>-Stop first, then slowly enter traffic.<br><b><font color="red"> -Accelerate to the speed of traffic.</font></b> <br><h4 class="anchored">11.  This road sign means:</h4><img alt="virginia-winding road ahead" height="300" src="https://www.dmv-written-test.com/images-car/virginia-winding_road_ahead.png" width="300">
+<br>-Sharp turn to the right.<br>-Double curve.<br><b><font color="red"> -Winding road.</font></b> <br>-Pavement ends.<br><h4 class="anchored">12.  Before changing lanes on a multilane highway, you should:</h4>-Sound your horn.<br>-Turn on your headlights.<br>-Reduce your speed.<br><b><font color="red"> -Check your mirrors and blind spots.</font></b> <br><h4 class="anchored">13.  A slow-moving vehicle emblem is:</h4>-A rectangular red sign.<br>-A circular green sign.<br>-A diamond-shaped yellow sign.<br><b><font color="red"> -A triangular orange sign.</font></b> <br><h4 class="anchored">14.  When is it legal to have an open container of alcohol in a motor vehicle passenger area?</h4>-While the vehicle is stopped.<br><b><font color="red"> -Never.</font></b> <br>-While the vehicle is parked.<br>-While the vehicle is being operated.<br><h4 class="anchored">15.  You must yield for emergency vehicles:</h4>-Under no circumstances.<br><b><font color="red"> -When you see a flashing red or blue light or hear a siren.</font></b> <br>-Only when other vehicles yield.<br>-None of the above.<br><h4 class="anchored">16.  Increase your following distance when:</h4>-Driving behind a large vehicle that blocks your vision.<br>-Exiting an expressway.<br>-Following a motorcycle.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">17.  If you leave your vehicle unattended, you must:</h4>-Turn off the engine.<br>-Lock the ignition and remove the key.<br>-Set the parking brake.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">18.  When approaching a railroad crossing warning sign:</h4>-Be ready to drive faster than the train.<br><b><font color="red"> -Be prepared to stop if a train is nearby.</font></b> <br>-Look for a way around any lowered gates.<br>-Assume no trains are nearby and continue driving normally.<br><h4 class="anchored">19.  Stop lines are solid white lines painted across traffic lanes:</h4>-In curves and on hills.<br>-Next to churches and schools.<br><b><font color="red"> -At intersections and pedestrian crosswalks.</font></b> <br>-On freeway on-ramps.<br><h4 class="anchored">20.  Traffic signals sometimes display arrows to control turns from specific lanes. A solid red arrow:</h4>-Is never used as a traffic signal.<br><b><font color="red"> -Has the same meaning as a circular red traffic light.</font></b> <br>-Means that drivers may turn in the direction indicated by the arrow.<br>-Means that the traffic the arrow is pointing toward must stop.<br><h4 class="anchored">21.  This sign means:</h4><img alt="indiana-winding road" height="300" src="https://www.dmv-written-test.com/images-car/indiana-winding_road.png" width="300">
+<br><b><font color="red"> -Winding road.</font></b> <br>-No parking.<br>-Right lane closed.<br>-Multiple turns.<br><h4 class="anchored">22.  Distracted driving is:</h4>-Very uncommon.<br><b><font color="red"> -Extremely risky behavior.</font></b> <br>-Nothing to be concerned about.<br>-No less safe than driving under any other conditions.<br><h4 class="anchored">23.  Texting while driving is allowed:</h4>-When there are very few cars around.<br><b><font color="red"> -Under no circumstances.</font></b> <br>-If drivers are using voice-to-text.<br>-If the driver's eyes only leave the road for a couple of seconds.<br><h4 class="anchored">24.  When passing an emergency vehicle stopped on the side of the road, drivers should:</h4>-Increase their speed.<br><b><font color="red"> -Vacate the lane closest to the emergency vehicle or slow down.</font></b> <br>-Ask the emergency worker if they need help.<br>-Move to the lane closest to the stationary vehicle.<br><h4 class="anchored">25.  When encountering a warning sign, drivers should:</h4>-Pay attention to their surroundings.<br>-Follow instructions.<br>-Reduce their speed to at least the posted advisory speed.<br><b><font color="red"> -All of the above.</font></b> <br><h4 class="anchored">26.  Alcohol-related crashes represent ____ of the total number of persons killed in automotive crashes.</h4>-3 percent<br>-5 percent<br>-10 percent<br><b><font color="red"> -29 percent</font></b> <br><h4 class="anchored">27.  If you are driving in another driver's blind spot, you should:</h4><b><font color="red"> -Move forward or drop back so the other driver can see you.</font></b> <br>-Keep a steady pace.<br>-Stay in the driver's blind spot.<br>-Honk to let them know you are there.<br><h4 class="anchored">28.  When driving past a vehicle that has just stopped in a parked position on the side of the road, you should:</h4><b><font color="red"> -Assume that the driver will open the car door as you approach.</font></b> <br>-Speed up.<br>-Slam on your brakes.<br>-Assume that the driver will wait for you to pass before opening the door.<br><h4 class="anchored">29.  What does a single dashed white line separating traffic mean?</h4>-Drivers may pass, even if it could be dangerous.<br>-Lanes move in opposite directions.<br>-Drivers may not pass.<br><b><font color="red"> -Drivers may pass if it is safe to do so.</font></b> <br><h4 class="anchored">30.  When is it acceptable to park in a striped area next to a disabled parking spot?</h4><b><font color="red"> -Never.</font></b> <br>-When you have a disability plate or parking placard.<br>-When all other parking spaces are full.<br>-When you are only parking for a couple minutes.<br>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2023, Benjamin DK Luong</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/benjamin-dk-luong/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/BenjaminDKLuong">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
